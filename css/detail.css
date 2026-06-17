@@ -367,8 +367,8 @@ footer .text-center {
     display: none;
     }
 
-  .card {
+    .card {
     position: static;
     margin-top: 24px;
-  }
+    }
 }
