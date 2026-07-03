@@ -1,36 +1,41 @@
 # Aloha
 
-Proyecto web con HTML, Bootstrap 5 y CSS.
+Proyecto web desarrollado en el primer ciclo de la carrera. Plataforma de alojamientos turísticos en el Perú para encontrar y reservar alojamientos en los mejores destinos del país.
 
-## Estructura
+## Características
 
-```
-projecto/
-├── index.html
-├── css/
-│   └── styles.css
-└── images/
-```
+- Búsqueda de propiedades por ubicación, precio, tipo y huéspedes
+- Galería de imágenes con vista detallada de cada propiedad
+- Sistema de reserva con selección de fechas y cantidad de huéspedes
+- Integración con WhatsApp para consultas y reservas
+- Diseño responsive adaptable a dispositivos móviles
+- Interfaz moderna con Bootstrap 5
 
 ## Tecnologías
 
 - HTML5
-- Bootstrap 5.3.3
 - CSS3
-- Git
+- Bootstrap 5.3.3
+- Bootstrap Icons
+- Google Fonts (Roboto)
 
-### Wireframes
+## Estructura
 
-#### Baja
-![Intro](wireframes/baja/1-intro.png)
-![Detalles](wireframes/baja/2-detalle.jpg)
-![Registro](wireframes/baja/3-registro.jpg)
-![Inicio Sesión](wireframes/baja/4-inicio-sesion.jpg)
+```
+aloha/
+├── index.html              # Página principal
+├── css/
+│   ├── styles.css          # Estilos página principal
+│   └── detail.css          # Estilos página detalle
+├── pages/
+│   └── detail.html         # Página detalle de propiedad
+├── images/                 # Imágenes del sitio
+├── wireframes/             # Wireframes del diseño
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
+## Licencia
 
-#### Alta
-![Intro](wireframes/alta/1-intro.jpg)
-![Detalles](wireframes/alta/2-detalle.jpg)
-![Registro](wireframes/alta/3-registro.jpg)
-![Inicio Sesión](wireframes/alta/4-inicio-sesion.jpeg)
-![Mis reservas](wireframes/alta/5-mis-reservas.jpg)
+[MIT](LICENSE)

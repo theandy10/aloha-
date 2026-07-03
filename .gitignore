@@ -1,2 +1,14 @@
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if using npm in future)
+node_modules/
+package-lock.json
